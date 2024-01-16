@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{f0f3f922-f648-4b6a-bff4-c4b8289a40c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LinkedList">
+      <UniqueIdentifier>{a0999c99-d391-4246-a01a-699646ef1b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Node">
+      <UniqueIdentifier>{a1287072-e175-4693-8d86-93c90b76b29c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h">
+      <Filter>LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Node</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
